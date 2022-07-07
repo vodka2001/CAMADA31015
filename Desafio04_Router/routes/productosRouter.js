@@ -4,13 +4,13 @@ const productosRouter = express.Router();
 let productos = [
   {
     id: 1,
-    titulo: "santiago",
+    titulo: "regla",
     precio: 110,
     url: "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
   },
   {
     id: 2,
-    titulo: "estefania",
+    titulo: "marcador",
     precio: 220,
     url: "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
   },
