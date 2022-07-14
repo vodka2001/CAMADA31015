@@ -27,12 +27,20 @@ class Productos {
         return producto;
     }
 
-    /* borrar(id) {
+    borrar(id) {
         const producto = this.productos.find(producto => producto.id == id);
         let index = this.productos.findIndex(producto);
         this.productos.splice(index, 1);
-    } */
+    }
+
+    update(id) {
+        const producto = this.productos.find(producto => producto.id == id);
+        if (idx < 0) throw new Error('No found element')
+        data[idx] = obj
+        return producto;
 }
+}
+
 
 // exporto una instancia de la clase
 module.exports = Productos;
