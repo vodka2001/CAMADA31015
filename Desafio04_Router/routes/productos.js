@@ -36,7 +36,9 @@ router.get('/listar', (req, res) => {
 })
 
 router.delete('/borrar/:id', (req, res) => {
-    return res.json({ estado: 'BORRADO' });
+    let id = req.params.id
+    let msj = productos.borrar(id)
+    return res.json({ estado: "Borrado" });
 
 })
 
